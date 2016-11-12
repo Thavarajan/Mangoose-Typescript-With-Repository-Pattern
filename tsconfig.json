@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "lib": ["es6", "dom"],
+        "types": ["node", "mongoose", "express", "method-override", "body-parser"],
+        "sourceMap": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        // "experimentalDecorators": true,
+        // "emitDecoratorMetadata": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "lib",
+        "noEmitOnError": false,
+        "suppressImplicitAnyIndexErrors": false,
+        "listEmittedFiles": true
+    },
+    "exclude": ["node_modules"]
+}

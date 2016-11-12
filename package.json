@@ -1,0 +1,35 @@
+{
+    "name": "learning-typescript-erickwendel",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib/index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ErickWendel/Learning.NodeJSWithTypescript.git"
+    },
+    "author": "erickwendel",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ErickWendel/Learning.NodeJSWithTypescript/issues"
+    },
+    "homepage": "https://github.com/ErickWendel/Learning.NodeJSWithTypescript#readme",
+    "devDependencies": {
+        "gulp": "^3.9.0",
+        "gulp-nodemon": "^2.0.6",
+        "gulp-typescript": "^3.1.2",
+        "@types/body-parser": "0.0.33",
+        "@types/express": "^4.0.33",
+        "@types/method-override": "0.0.29",
+        "@types/mongoose": "^4.5.41",
+        "@types/node": "^6.0.46",
+        "gulp-strip-debug": "^1.1.0"
+    },
+    "dependencies": {
+        "body-parser": "^1.14.2",
+        "express": "^4.13.3",
+        "method-override": "^2.3.5",
+        "mongojs": "^2.2.2",
+        "mongoose": "^4.3.4",
+        "typescript": "^2.0.9"
+    }
+}
