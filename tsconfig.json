@@ -6,8 +6,6 @@
         "sourceMap": true,
         "module": "commonjs",
         "moduleResolution": "node",
-        // "experimentalDecorators": true,
-        // "emitDecoratorMetadata": true,
         "removeComments": true,
         "preserveConstEnums": true,
         "outDir": "lib",
