@@ -12,9 +12,9 @@ class HeroRoutes {
         var controller = this._heroController;
         router.get("/heroes", controller.retrieve);
         router.post("/heroes", controller.create);
-        router.put("/hero/:_id", controller.update);
-        router.get("/hero/:_id", controller.findById);
-        router.delete("/hero/:_id", controller.delete);
+        router.put("/heroes/:_id", controller.update);
+        router.get("/heroes/:_id", controller.findById);
+        router.delete("/heroes/:_id", controller.delete);
         
         return router;
     }
