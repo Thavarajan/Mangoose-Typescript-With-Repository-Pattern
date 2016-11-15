@@ -10,12 +10,12 @@ gulp.task("compile", function() {
         .js.pipe(gulp.dest("./lib"));
 });
 
-gulp.task("watch", function() {
+gulp.task("watch",["compile"], function() {
     return gulp.watch("src/**/*.*", ["compile"]);
 });
 
 gulp.task("nodemon", ["compile"], function() {
-    nodemon({ script: "lib/index.js" });
+    nodemon({ script: "lib/index.js", delay:15 });
 });
 
 gulp.task("default", ["compile", "watch", "nodemon"]);

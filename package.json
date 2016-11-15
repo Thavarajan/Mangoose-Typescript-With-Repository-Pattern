@@ -5,14 +5,14 @@
     "main": "lib/index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ErickWendel/Learning.NodeJSWithTypescript.git"
+        "url": "git+https://github.com/Thavarajan/Mangoose-Typescript-With-Repository-Pattern.git"
     },
-    "author": "erickwendel",
+    "author": "Thavarajan",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/ErickWendel/Learning.NodeJSWithTypescript/issues"
+        "url": "https://github.com/Thavarajan/Mangoose-Typescript-With-Repository-Pattern/issues"
     },
-    "homepage": "https://github.com/ErickWendel/Learning.NodeJSWithTypescript#readme",
+    "homepage": "https://github.com/Thavarajan/Mangoose-Typescript-With-Repository-Pattern/#readme",
     "devDependencies": {
         "gulp": "^3.9.0",
         "gulp-nodemon": "^2.0.6",
