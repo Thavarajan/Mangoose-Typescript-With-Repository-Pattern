@@ -17,7 +17,6 @@
                 "NODE_ENV": "development"
             },
             "sourceMaps": true,
-            "outDir": "${workspaceRoot}\\lib",
             "outFiles": ["${workspaceRoot}/lib/**/*.js"]
         },
         {
