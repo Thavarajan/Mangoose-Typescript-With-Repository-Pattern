@@ -10,8 +10,10 @@
         "preserveConstEnums": true,
         "outDir": "lib",
         "noEmitOnError": false,
-        "suppressImplicitAnyIndexErrors": false,
-        "listEmittedFiles": true
+        "typeRoots": [
+            "../node_modules/@types/"
+        ],
+        "suppressImplicitAnyIndexErrors": false
     },
     "exclude": ["node_modules"]
 }
